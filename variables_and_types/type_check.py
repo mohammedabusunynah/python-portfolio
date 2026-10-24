@@ -6,6 +6,7 @@ print(type("8080"))
 print(type(99.5))
 print(type("198.51.100.7"))
 print(type(1_000))
+# this print for an empty line to make it look decent in the terminal
 print()
 # prediction: 1:int 2:str 3:float 4:str 5:int
 
