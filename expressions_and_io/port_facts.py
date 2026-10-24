@@ -9,7 +9,7 @@ PORT_BITS = 16
 IPV4_BITS = 32
 
 possible_port_numbers = 2 ** PORT_BITS 
-highest_port_number = 2 ** 16-1
+highest_port_number = 2 ** 16 - 1
 number_of_possible_ipv4 = 2 ** IPV4_BITS
 
 print(f"number of possible ports: {possible_port_numbers}")
