@@ -10,6 +10,6 @@ attempts_left = MAX_LOGIN_ATTEMPTS - failed
 print("=" * 30)
 print("LOGIN REPORT")
 print("=" * 30)
-
-print(f"user: \t\t{username} \nfailed: \t{failed} \nattempts left: \t{attempts_left}")
+# double \t to make it in the same line in the terminal in vscode (it was not at the same level with only one \t )
+print(f"user:\t\t{username}\nfailed:\t{failed}\nattempts left:\t{attempts_left}")
 
