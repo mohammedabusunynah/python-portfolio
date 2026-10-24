@@ -3,9 +3,9 @@
 
 MAX_FAILED = 5
 
-role = input("enter role:")
-mfa = input("MFA passed (yes/no):")
-failed = int(input("failed attempts:"))
+role = input("enter role: ")
+mfa = input("MFA passed (yes/no): ")
+failed = int(input("failed attempts: "))
 
 mfa_ok = mfa == "yes"
 is_privileged = role == "admin" or role == "root"
