@@ -16,11 +16,11 @@ print("\nIs port != 80? i predict True.")
 print(port != 80)
 
 # mistake? because i put 3 after the comparing mark (i fixed it later) print("\nIs failed > 3? i predict true")
-print("\nIs failed > 2? i predict true ")
+print("\nIs failed > 2? i predict true")
 print(failed > 2)
 
 print("\nIs port < 30? i predict true")
-print(port < 30 )
+print(port < 30)
 
 print("\nIs port <= 22? i predict true")
 print(port <= 22)
