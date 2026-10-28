@@ -11,5 +11,5 @@ print("="*30)
 print("LOGIN REPORT")
 print("="*30)
 
-print(f"user: \t\t{username} \nfailed: \t{failed} \nattempts left: \t{attempts_left}")
+print(f"user:\t\t{username}\nfailed:\t{failed}\nattempts left:\t{attempts_left}")
 
