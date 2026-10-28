@@ -1,7 +1,7 @@
 # session_timer.py
 # this program creats a session timer 
 
-session_length = int(input("enter session lenght in seconds"))
+session_length = int(input("enter session lenght in seconds: "))
 minutes = session_length // 60
 seconds = session_length % 60
 print(f"session length in seconds: {session_length} \nsession length: {minutes} minute and {seconds} seconds")
