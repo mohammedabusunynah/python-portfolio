@@ -17,3 +17,4 @@ elif password == STORED_PASSWORD:
     print("Access granted.")
 else:
     print("Access denied. Attempts left:", MAX_FAILED - failed - 1)
+
