@@ -4,18 +4,18 @@
 MIN_LENGTH = 8
 
 def border(width):
-    """Prints a border design"""
+    """Prints a border design."""
     print("+" + "-" * (width + 2) + "+")
 
 
 def show_box(text):
-        """Prints a border for the text"""
+        """Prints a border for the text."""
         border(len(text))
         print("| " + text + " |")
         border(len(text))
 
 def show_menu():
-      """Prints a title and 4 menu lines"""
+      """Prints a title and 4 menu lines."""
       print("SECURITY TOOLKIT")     
       print("1. Check a port")
       print("2. Check a password")
@@ -24,7 +24,7 @@ def show_menu():
 
 
 def port_range(port):   
-      """Checks if the port is valid or not"""
+      """Checks if the port is valid or not."""
       if port < 0 or port > 65535:
             return "invalid"
       elif port <= 1023:
@@ -35,7 +35,7 @@ def port_range(port):
 
 
 def check_port():
-    """Ask the user for the port number and call the show_box()"""
+    """Ask the user for the port number and call the show_box()."""
     port = int(input("Port: "))
     show_box("Port " + str(port) + ": " + port_range(port))
 
@@ -67,7 +67,7 @@ def days_to_guess(digits, per_second):
 
 
 def check_pin():
-    """Ask for digits & guesses per second then call the days_to_guess(digits, per_second) then shows it the show_box"""
+    """Ask for digits & guesses per second then call the days_to_guess(digits, per_second) then shows it the show_box."""
     digits = int(input("PIN digits: "))
     per_second = int(input("Guesses per second: "))
     days = days_to_guess(digits, per_second)
