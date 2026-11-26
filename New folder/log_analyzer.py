@@ -80,7 +80,7 @@ def mask(word):
 
 
 def show_masked():
-        """Print the whole LOG with every user name masked."""
+    """Print the whole LOG with every user name masked."""
     for line in lines:
         user = get_field(line, "user")
         print(line.replace("user=" + user, "user=" + mask(user)))
